@@ -3,7 +3,7 @@
 Deploy Azure Windows or Linux vm in Python
 
 
-1. Type in cmd "pip install -r requirements.txt"
+1. Install requirements.txt"
 
 
 ```bash
