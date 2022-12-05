@@ -25,6 +25,7 @@ Deploy Azure Windows or Linux vm in Python
   python windows_vm.py
 ```
 
+Make sure config.ini is in the same directory as py files
 
 
 After you have created Linux vm, it will automatically connect to it via ssh
