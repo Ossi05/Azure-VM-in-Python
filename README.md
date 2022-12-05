@@ -3,7 +3,7 @@
 Deploy Azure Windows or Linux vm in Python
 
 
-1. In your terminal or command prompt, install the management libraries listed in requirements.txt:
+1. In your terminal or command prompt, install the management libraries listed in requirements.txt
 
 
 ```bash
