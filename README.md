@@ -7,7 +7,7 @@ Deploy Azure Windows or Linux vm in Python
 
 
 ```bash
-  requirements.txt"
+  requirements.txt
 ```
 
 
