@@ -24,3 +24,7 @@ Deploy Azure Windows or Linux vm in Python
 ```bash
   python windows_vm.py
 ```
+
+
+
+After you have created Linux vm, it will automatically connect to it via ssh
