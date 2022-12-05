@@ -1,0 +1,5 @@
+azure-mgmt-resource
+azure-mgmt-compute
+azure-mgmt-network
+azure-identity
+azure-mgmt-extendedlocation==1.0.0b2
