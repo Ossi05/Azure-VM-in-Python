@@ -17,3 +17,10 @@ Deploy Azure Windows or Linux vm in Python
 3. Get your Azure subscription id here https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade
 
 4. Run windows_vm or linux_vm
+```bash
+  python linux_vm.py
+```
+
+```bash
+  python windows_vm.py
+```
