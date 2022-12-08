@@ -267,6 +267,8 @@ vm_result = poller.result()
 
 print(f"Provisioned virtual machine {vm_result.name}")
 
+print("Connect with this command: mstsc /v:{ip_address_result.ip_address}")
 
+os.system(f'cmd /k "mstsc /v:{ip_address_result.ip_address}"')
 
 
