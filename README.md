@@ -31,7 +31,7 @@ Make sure config.ini is in the same directory as py files
 After you have created Linux vm, it will automatically connect to it via ssh
 
 
-#To do
+##To do
 
 -Gui
 -Automatically connect to Windows vm (rdp)
