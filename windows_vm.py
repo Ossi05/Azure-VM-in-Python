@@ -43,7 +43,7 @@ nsg_name = config.get('Security Rule', 'nsg_name')
 
 
 
-print(f"Luodaan virtuaalikonetta")
+print(f"Creating Windows virtual machine")
 
 # Acquire credential object using CLI-based authentication.
 credential = AzureCliCredential()
