@@ -2,6 +2,7 @@
 # Azure-VM-in-Python
 Deploy Azure Windows vm or Linux vm in Python
 
+When creating Linux vm, it will automatically connect to it via ssh when it's created.
 
 1. In your terminal or command prompt, install the management libraries listed in requirements.txt
 
@@ -27,8 +28,6 @@ Deploy Azure Windows vm or Linux vm in Python
 
 Make sure config.ini is in the same directory as py files
 
-
-After you have created Linux vm, it will automatically connect to it via ssh
 
 
 # To do
