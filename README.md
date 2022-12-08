@@ -3,6 +3,7 @@
 Deploy Azure Windows vm or Linux vm in Python
 
 When creating Linux vm, it will automatically connect to it via ssh when it's created.
+Windows vm will automatically connect via RDP
 
 1. In your terminal or command prompt, install the management libraries listed in requirements.txt
 
@@ -29,8 +30,6 @@ Make sure config.ini is in the same directory as py files
 
 
 # To do
-
--Automatically connect to Windows vm (rdp)
 
 -nicer looking and simpler setup.py
 
