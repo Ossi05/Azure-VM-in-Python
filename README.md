@@ -37,3 +37,5 @@ Make sure config.ini is in the same directory as py files
 -nicer looking gui
 
 -Notifications
+
+-Delete vm script
