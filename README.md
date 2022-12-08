@@ -33,9 +33,6 @@ Make sure config.ini is in the same directory as py files
 
 # To do
 
--nicer looking and simpler setup.py
-
--nicer looking gui
 
 -Notifications
 
