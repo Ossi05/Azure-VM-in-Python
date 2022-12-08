@@ -12,7 +12,7 @@ Deploy Azure Windows vm or Linux vm in Python
 
 
 
-2. Run setup.py or edit config.ini file
+2. Run setup.py or edit the config.ini file
 
 3. Get your Azure subscription id here https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade
 
