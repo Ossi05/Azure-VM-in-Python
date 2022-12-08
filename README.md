@@ -36,3 +36,5 @@ After you have created Linux vm, it will automatically connect to it via ssh
 -Gui
 
 -Automatically connect to Windows vm (rdp)
+
+-nicer looking and simpler setup.py
