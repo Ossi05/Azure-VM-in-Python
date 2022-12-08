@@ -38,3 +38,5 @@ After you have created Linux vm, it will automatically connect to it via ssh
 -nicer looking and simpler setup.py
 
 -nicer looking gui
+
+-Notifications
