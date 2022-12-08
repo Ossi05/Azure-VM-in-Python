@@ -34,4 +34,5 @@ After you have created Linux vm, it will automatically connect to it via ssh
 # To do
 
 -Gui
+
 -Automatically connect to Windows vm (rdp)
