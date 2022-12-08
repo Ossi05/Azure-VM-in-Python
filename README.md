@@ -2,7 +2,7 @@
 # Azure-VM-in-Python
 Deploy Azure Windows vm or Linux vm in Python
 
-When creating vm it will automatically connect to it via SSH or RDP depending on which vm you created.
+When creating vm it will automatically connect to it via SSH or RDP depending on which vm you create.
 Linux vm connects via ssh and Windows vm via RDP
 
 
