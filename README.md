@@ -17,14 +17,12 @@ When creating Linux vm, it will automatically connect to it via ssh when it's cr
 
 3. Get your Azure subscription id here https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade
 
-4. Run windows_vm or linux_vm
+4. Run start.exe
+
 ```bash
   python linux_vm.py
 ```
 
-```bash
-  python windows_vm.py
-```
 
 Make sure config.ini is in the same directory as py files
 
