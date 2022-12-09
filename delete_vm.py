@@ -29,7 +29,7 @@ def main():
         #Delete VM
         delete_async_operation = client.resource_groups.begin_delete(group)
         delete_async_operation = client.resource_groups.begin_delete("NetworkWatcherRG")
-        print("Deleting resource group")
+        print("Deleting resource group. This operation might take a few minutes ")
         delete_async_operation.wait()
 
         print("Deleted resource group" )
