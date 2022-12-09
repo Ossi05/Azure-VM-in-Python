@@ -25,14 +25,14 @@ def main():
 
     try: 
        
-        print("Trying to delete VM and resources")
+        print("Trying to delete resource group")
         #Delete VM
         delete_async_operation = client.resource_groups.begin_delete(group)
         delete_async_operation = client.resource_groups.begin_delete("NetworkWatcherRG")
-        print("Deleting VM and resources")
+        print("Deleting resource group")
         delete_async_operation.wait()
 
-        print("Deleted VM and resources" )
+        print("Deleted resource group" )
 
     except:
         print("Error: You don't have any vm or resources to delete")
