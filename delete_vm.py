@@ -30,6 +30,8 @@ def main():
         delete_async_operation = client.resource_groups.begin_delete(group)
         delete_async_operation = client.resource_groups.begin_delete("NetworkWatcherRG")
         print("Deleting resource group. This operation might take a few minutes ")
+        print("If this takes a long time, please check your resources")
+        print("https://portal.azure.com/#view/HubsExtension/BrowseAll")
         delete_async_operation.wait()
 
         print("Deleted resource group" )
