@@ -24,10 +24,12 @@ def main():
 
 
     try: 
-        print("Deleting VM and resources")
+       
+        print("Trying to delete VM and resources")
         #Delete VM
         delete_async_operation = client.resource_groups.begin_delete(group)
-        delete_async_operation.wait()
+        delete_async_operation = client.resource_groups.begin_delete("NetworkWatcherRG")
+        print("Deleting VM and resources")
         delete_async_operation.wait()
 
         print("Deleted VM and resources" )
