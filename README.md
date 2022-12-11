@@ -16,6 +16,9 @@ You can delete the vm with delete_vm.py file
   pip install -r requirements.txt
 ```
 
+2. Install Azure CLI
+
+https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
 
 
 2. Run setup.py or edit the config.ini file
