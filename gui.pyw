@@ -81,6 +81,18 @@ class App:
         GButton_421.place(x=270,y=280,width=80,height=25)
         GButton_421["command"] = self.GButton_421_command
 
+
+        #First time setup
+        GButton_setup=tk.Button(root)
+        GButton_setup["bg"] = "#f0f0f0"
+        ft = tkFont.Font(family='Times',size=11)
+        GButton_setup["font"] = ft
+        GButton_setup["fg"] = "#000000"
+        GButton_setup["justify"] = "center"
+        GButton_setup["text"] = "First time setup"
+        GButton_setup.place(x=260,y=310,width=100,height=25)
+        GButton_setup["command"] = self.GButton_setup_command
+
         
 
        
@@ -104,6 +116,9 @@ class App:
 
     def GButton_del_command(self):
         os.system("start python delete_vm.py")
+
+    def GButton_setup_command(self):
+        os.system("start python first_time_setup.py")
    
         
 
