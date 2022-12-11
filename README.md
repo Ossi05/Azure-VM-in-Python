@@ -9,28 +9,16 @@ You can delete the vm with delete_vm.py file
 
 # How to setup
 
-1. In your terminal or command prompt, install the management libraries listed in requirements.txt
+1. Run Azure vm creator.exe
+
+2. Choose First time setup
+
+#How to edit settings
+Run Azure vm creator.exe and choose config.ini or settings
 
 
-```bash
-  pip install -r requirements.txt
-```
-
-2. Install Azure CLI https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
-
-
-2. Run setup.py or edit the config.ini file
-
-3. Get your Azure subscription id here https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade
-
-4. Run start.exe
-
-```bash
-  python linux_vm.py
-```
-
-
-Make sure config.ini is in the same directory as py files
+#How to create vm
+Run Azure vm creator.exe and choose Windows vm or Linux vm
 
 
 
