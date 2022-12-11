@@ -13,11 +13,11 @@ You can delete the vm with delete_vm.py file
 
 2. Choose First time setup
 
-#How to edit settings
+# How to edit settings
 Run Azure vm creator.exe and choose config.ini or settings
 
 
-#How to create vm
+# How to create vm
 Run Azure vm creator.exe and choose Windows vm or Linux vm
 
 
