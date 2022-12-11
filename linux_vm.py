@@ -10,6 +10,7 @@ from azure.mgmt.network.v2020_06_01.models import SecurityRule
 
 import configparser
 import os
+import time
 
 def main():
     #Configs
@@ -60,13 +61,20 @@ def main():
 
 
     # create the resource group.
-    rg_result = resource_client.resource_groups.create_or_update(RESOURCE_GROUP_NAME,
-        {
-            "location": LOCATION
-        }
-    )
+    try:
+        rg_result = resource_client.resource_groups.create_or_update(RESOURCE_GROUP_NAME,
+            {
+                "location": LOCATION
+            }
+        )
 
-    print(f"Provisioned resource group {rg_result.name} in the {rg_result.location} region")
+        print(f"Provisioned resource group {rg_result.name} in the {rg_result.location} region")
+
+    except:
+        print("Error! Please check the config.ini file")
+        time.sleep(10)
+        quit()
+
 
 
 
