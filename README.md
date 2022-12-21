@@ -26,3 +26,5 @@ Run Azure vm creator.exe and choose Windows vm or Linux vm
 
 
 -Notifications
+
+-Better looking gui
