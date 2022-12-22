@@ -7,6 +7,10 @@ Linux vm connects via ssh and Windows vm via RDP
 
 You can delete the vm with delete_vm.py file
 
+If you can't install Azure cli from https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+
+install it via pip install azure-cli
+
 # How to setup
 
 1. Run Azure vm creator.exe
@@ -28,3 +32,5 @@ Run Azure vm creator.exe and choose Windows vm or Linux vm
 -Notifications
 
 -Better looking gui
+
+-Fix first time installation error
