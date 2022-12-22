@@ -9,7 +9,7 @@ You can delete the vm with delete_vm.py file
 
 If you can't install Azure cli from https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
 
-install it via pip install azure-cli
+install it via python -m azure.cli and then python -m azure.cli login
 
 # How to setup
 
