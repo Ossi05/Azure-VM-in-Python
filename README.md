@@ -28,6 +28,9 @@ Run Azure vm creator.exe and choose Windows vm or Linux vm
 
 # To do
 
+-Fix errors. I tried this on schools computer and it didn't always work. 
+
+I will fix these errors when i have time
 
 -Notifications
 
