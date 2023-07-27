@@ -2,7 +2,7 @@
 # Azure-VM-in-Python
 
 # Important Notice: 
-This project is no longer actively maintained as I no longer have an Azure subscription. So there may be a few bugs where it doesn't always create the vm.
+**This project is no longer actively maintained as I no longer have an Azure subscription. So there may be a few bugs where it doesn't always create the vm.**
 
 Deploy Azure Windows vm or Linux vm in Python
 
