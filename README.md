@@ -1,5 +1,6 @@
 
-
+# Check out new Azure VM Creator
+https://github.com/Ossi05/Azure-VM-Creator-2.0/
 
 # Important Notice: 
 **This project is no longer actively maintained as I no longer have an Azure subscription. So there may be a few bugs where it doesn't always create the vm.**
